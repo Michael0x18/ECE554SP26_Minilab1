@@ -1,1 +1,0 @@
-Warning (10268): Verilog HDL information at mac.sv(15): always construct contains both blocking and non-blocking assignments File: /home/michael2/Documents/Classes/Minilab0/mac.sv Line: 15
