@@ -7,7 +7,7 @@ module mat_vec_mult_tb ();
   logic Clr;
   // logic a_rden[7:0];
   // logic b_rden;
-  logic a_wren[7:0];
+  logic a_wren;
   logic b_wren;
   logic [DATA_WIDTH-1:0] a_fifo_in[7:0];
   logic [DATA_WIDTH-1:0] b_fifo_in;
@@ -26,7 +26,25 @@ module mat_vec_mult_tb ();
 
   mat_vec_mult iDUT (.*);
 
-  task load_fifo(input [DATA_WIDTH-1:-0] a_mat[7:0], input [DATA_WIDTH-1:0] b_vec);
+
+  //enable all a and b fifos, and start loading in values into each one
+  task load_fifo_a(input [DATA_WIDTH-1:-0] a_mat[7:0], input [DATA_WIDTH-1:0] b_vec);
+    a_wren = 1'b1;
+    for (integer i = 0; i < 8; i = i + 1) begin
+      for (integer j = 0; j < 8; j = j + 1) begin
+        a_fifo_in[j] = a_mat[i];
+      end
+      @(posedge clk) begin
+      end
+    end
+
+  endtask
+
+  task load_fifo_b(input [DATA_WIDTH-1:0] b_vec);
+    b_wren = 1'b1;
+    b_fifo_in = b_vec;
+    @(posedge clk) begin
+    end
   endtask
 
 
@@ -47,10 +65,5 @@ module mat_vec_mult_tb ();
     Clr <= 1'b1;
     #1000;
   end
-
-
-
-
-
-
 endmodule
+
