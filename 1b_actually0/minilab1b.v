@@ -41,6 +41,8 @@ wire [DATA_WIDTH*3-1:0] out[DATA_WIDTH-1:0];
 
 wire [31:0] address;
 wire mem_rd_en;
+reg done;
+reg inc;
 reg state;
 reg [3:0] mem_rd_count;
 reg [63:0] data_line;
@@ -90,6 +92,7 @@ mat_vec_mult #(.DEPTH(DEPTH), .DATA_WIDTH(DATA_WIDTH)) iMAC(
 	.a_fifo_in(data_line),
 	.b_fifo_in(data_line),
 	.out(out)
+	.done(done)
 );
 
 //=======================================================
@@ -104,15 +107,22 @@ always_comb begin
 	READ_MEM:
 	begin
 		macout <= {(DATA_WIDTH*3){1'b0}};
+		inc = 1'b0;
 		if (readdatavalid && mem_rd_count == 4'd8)
 			b_wren = 1'b1;
+			inc = 1'b1;
 		else if(readdatavalid)
 			a_wren = 1'b1;
+			inc = 1'b1;
 		else if (mem_rd_count == 4'd9)
 			nxt_state <= DONE;
 	end
+
 	DONE:
+	begin
+		inc = 1'b0;
 		macout <= out;
+	end
 		
 end
 
@@ -290,6 +300,6 @@ always @(*) begin
   end
 end
 
-assign LEDR = {{8{1'b0}}, state};
+assign LEDR = {{8{1'b0}}, done};
 
 endmodule
