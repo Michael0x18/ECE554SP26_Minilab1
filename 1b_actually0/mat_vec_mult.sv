@@ -80,12 +80,12 @@ module mat_vec_mult #(
 
   //TODO: check this if it should staart at 8'b0 or 8'b1
   always @(posedge clk, negedge rst_n) begin
-    if (~rst_n) a_rden <= 17'h7ff00;
+    if (~rst_n) a_rden <= 17'h1ff00;
     else begin
       if (curr_state == WORKING) begin
         a_rden <= {1'b0,a_rden[16:1]};
       end else if (curr_state == IDLE) begin
-        a_rden <= 17'h7ff00;
+        a_rden <= 17'h1ff00;
       end
     end
   end
