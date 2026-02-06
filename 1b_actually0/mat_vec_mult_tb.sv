@@ -25,7 +25,9 @@ module mat_vec_mult_tb ();
     end
   endgenerate
 
+  logic done;
 mat_vec_mult iDUT (
+  .done(done),
   .clk(clk),
   .rst_n(rst_n),
   .Clr(Clr),
@@ -74,13 +76,13 @@ mat_vec_mult iDUT (
     Clr <= 1'b0;
   end
   #20 @(posedge clk)begin rst_n <= 1'b1;
-    Clr <= 1'b1;
+    Clr <= 1'b0;
   end
     //try driving the tasks (god please work)
     for (integer i = 0; i < 8; i = i + 1) begin
-      val_a[i] = 8'b1;
+      val_a[i] = 8'd2;
     end
-    val_b=8'b1;
+    val_b=8'd2;
 
     load_fifo_a(val_a);
     load_fifo_a(val_a);

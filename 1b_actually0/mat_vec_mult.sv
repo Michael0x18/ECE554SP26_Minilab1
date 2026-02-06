@@ -10,6 +10,7 @@ module mat_vec_mult #(
     input wire clk,
     input wire rst_n,
     input wire Clr,
+    output reg done,
     //input wire a_rden[7:0],
     //input wire b_rden,
     input wire a_wren,
@@ -24,7 +25,7 @@ module mat_vec_mult #(
   wire a_full[7:0];
   wire a_empty[7:0];
   //wire a_rden[7:0];
-  reg [7:0] a_rden;
+  reg [16:0] a_rden;
   wire b_full;
   wire b_empty;
 
@@ -60,6 +61,16 @@ module mat_vec_mult #(
       end
     endcase
   end
+  always@(posedge clk)begin
+    if(~rst_n)
+      done<=1'b0;
+    else begin
+      if(curr_state==WORKING && next_state==IDLE)
+        done<=1'b1;
+      else if(curr_state==IDLE && next_state==WORKING)
+        done<=1'b0;
+    end
+  end
 
   //state transition logic
   always @(posedge clk, negedge rst_n) begin
@@ -69,12 +80,12 @@ module mat_vec_mult #(
 
   //TODO: check this if it should staart at 8'b0 or 8'b1
   always @(posedge clk, negedge rst_n) begin
-    if (~rst_n) a_rden <= 8'b00000000;
+    if (~rst_n) a_rden <= 17'h7ff00;
     else begin
       if (curr_state == WORKING) begin
-        a_rden <= {a_rden[7:1], 1'b1};
+        a_rden <= {1'b0,a_rden[16:1]};
       end else if (curr_state == IDLE) begin
-        a_rden <= 8'b0;
+        a_rden <= 17'h7ff00;
       end
     end
   end
@@ -112,7 +123,7 @@ module mat_vec_mult #(
       FIFO a_mat (
           .clk(clk),
           .rst_n(rst_n),
-          .rden(a_rden[i]),
+          .rden(a_rden[7-i]),
           .wren(a_wren),
           .i_data(a_fifo_in[i]),
           .o_data(a_mat_out[i]),
@@ -121,13 +132,12 @@ module mat_vec_mult #(
       );
     end
   endgenerate
-  wire En;
   generate
-    for (i = 0; i < 8; i = i + 1) begin
+    for (i = 0; i < 8; i = i + 1)begin
       MAC mat_arr (
           .clk(clk),
           .rst_n(rst_n),
-          .En(a_rden[i]),
+          .En(a_rden[7-i]),
           .Clr(Clr),
           .Ain(a_mat_out[i]),
           .Bin(shift_reg[i]),
