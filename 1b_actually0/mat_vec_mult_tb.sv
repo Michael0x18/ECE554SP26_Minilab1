@@ -17,13 +17,6 @@ module mat_vec_mult_tb ();
   logic [DATA_WIDTH*3-1:0] out_0;
   assign out_0 = out[0];
 
-  genvar i;
-  generate
-    for (i = 0; i < 8; i = i + 1) begin
-      logic [DATA_WIDTH-1:0] a_fifo_in_upacked = a_fifo_in[i];
-      logic [DATA_WIDTH-1:0] out_unpacked = out[i];
-    end
-  endgenerate
 
   logic done;
   mat_vec_mult iDUT (
@@ -73,6 +66,8 @@ module mat_vec_mult_tb ();
   initial begin
     $dumpfile("dump2.vcd");
     $dumpvars(0, mat_vec_mult_tb);
+  end
+  initial begin
     #5;
     rst_n <= 1'b1;
     Clr   <= 1'b1;
@@ -172,9 +167,13 @@ module mat_vec_mult_tb ();
     val_b = 8'd8;
     load_fifo_a(val_a);
     load_fifo_b(val_b);
-    #100;
     $display("FUCK");
-
+    #1000;
+    Clr <= 1'b1;
+    @(posedge clk) Clr <= 1'b0;
+    @(posedge clk) Clr <= 1'b1;
+    #1000;
+    $finish;
   end
 endmodule
 

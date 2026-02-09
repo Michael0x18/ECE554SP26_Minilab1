@@ -36,9 +36,11 @@ module mat_vec_mult #(
   logic a_full_and;
   logic a_empty_and;
   always_comb begin
+    a_full_and = 'b1;
     for (integer i = 1; i < 8; i = i + 1) a_full_and = a_full[i] & a_full[i-1];
   end
   always_comb begin
+    a_empty_and = 'b1;
     for (integer i = 1; i < 8; i = i + 1) a_empty_and = a_empty[i] & a_empty[i-1];
   end
   //state transition logic for state machine
@@ -59,16 +61,14 @@ module mat_vec_mult #(
       WORKING: begin
         if (a_empty_and && b_empty) next_state = IDLE;
       end
+      default: next_state = curr_state;
     endcase
   end
-  always@(posedge clk)begin
-    if(~rst_n)
-      done<=1'b0;
+  always @(posedge clk) begin
+    if (~rst_n) done <= 1'b0;
     else begin
-      if(curr_state==WORKING && next_state==IDLE)
-        done<=1'b1;
-      else if(curr_state==IDLE && next_state==WORKING)
-        done<=1'b0;
+      if (curr_state == WORKING && next_state == IDLE) done <= 1'b1;
+      else if (curr_state == IDLE && next_state == WORKING) done <= 1'b0;
     end
   end
 
@@ -83,7 +83,7 @@ module mat_vec_mult #(
     if (~rst_n) a_rden <= 17'h1ff00;
     else begin
       if (curr_state == WORKING) begin
-        a_rden <= {1'b0,a_rden[16:1]};
+        a_rden <= {1'b0, a_rden[16:1]};
       end else if (curr_state == IDLE) begin
         a_rden <= 17'h1ff00;
       end
@@ -103,7 +103,6 @@ module mat_vec_mult #(
       .empty(b_empty),
       .full(b_full)
   );
-
   reg [DATA_WIDTH-1:0] shift_reg[7:0];
   always @(posedge clk, negedge rst_n) begin
     if (~rst_n) begin
@@ -114,12 +113,14 @@ module mat_vec_mult #(
     else if (curr_state==WORKING)begin
       shift_reg[7] <= b_fifo_out;
       for (int i = 7; i > 0; i = i - 1) shift_reg[i-1] <= shift_reg[i];
+    end else begin
+      for (int i = 0; i < 8; i = i + 1) shift_reg[i] <= 8'b0;
     end
   end
 
   genvar i;
   generate
-    for (i = 0; i < 8; i = i + 1) begin: hw
+    for (i = 0; i < 8; i = i + 1) begin : hw
       FIFO a_mat (
           .clk(clk),
           .rst_n(rst_n),
@@ -139,7 +140,7 @@ module mat_vec_mult #(
           .Bin(shift_reg[7-i]),
           .Cout(out[i])
       );
-      end
+    end
   endgenerate
 
 endmodule
