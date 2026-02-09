@@ -29,14 +29,12 @@ localparam DEPTH = 8;
 
 
 // SM States
-//TODO: Change when SM logic done
 localparam READ_MEM = 1'd0;
 localparam DONE     = 1'd1;
 
+// Signals
 wire rst_n;
 
-//illegal reference, trying to sequentially assign Clr later on when it was
-//initially delcared as a wire. Changed Clr to be logic
 logic Clr;
 wire [DATA_WIDTH-1:0] a_fifo_in[DATA_WIDTH-1:0];
 wire [DATA_WIDTH-1:0] b_fifo_in;
