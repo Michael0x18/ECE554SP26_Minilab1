@@ -366,6 +366,6 @@ always @(*) begin
   end
 end
 
-assign LEDR = {{8{1'b0}}, done};
+assign LEDR = {KEY[0], {7{1'b0}}, done};
 
 endmodule
