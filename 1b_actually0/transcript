@@ -1354,3 +1354,333 @@ vsim work.minilab1b_tb
 # Error loading design
 # End time: 11:38:20 on Feb 09,2026, Elapsed time: 0:00:01
 # Errors: 14, Warnings: 1
+# Compile of m2.sv failed with 5 errors.
+# Compile of altera_mf.vhd was successful.
+# Compile of altera_mf_components.vhd was successful.
+# 3 compiles, 1 failed with 5 errors.
+vsim work.minilab1b_tb -L altera_mf
+# vsim work.minilab1b_tb -L altera_mf 
+# Start time: 11:42:08 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# Loading work.minilab1b
+# Loading work.mem_wrapper
+# Loading work.rom
+# Loading work.mat_vec_mult
+# Loading work.FIFO
+# Loading work.MAC
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.address_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 84
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_input_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 85
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_output_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 86
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.init_file.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 87
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 88
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 89
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 90
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.numwords_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 91
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 92
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 93
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_reg_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 94
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.widthad_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 95
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 96
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_byteena_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 97
+# Error loading design
+# End time: 11:42:09 on Feb 09,2026, Elapsed time: 0:00:01
+# Errors: 14, Warnings: 5
+# Compile of m2.sv failed with 5 errors.
+vsim -L altera_mf_ver -L altera_mf altera_mf_ver.altsyncram
+# vsim -L altera_mf_ver -L altera_mf altera_mf_ver.altsyncram 
+# Start time: 11:43:20 on Feb 09,2026
+# Loading altera_mf_ver.altsyncram
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+vsim -L altera_mf_ver -L altera_mf work.minilab1b_tb
+# End time: 11:43:47 on Feb 09,2026, Elapsed time: 0:00:27
+# Errors: 0, Warnings: 2
+# vsim -L altera_mf_ver -L altera_mf work.minilab1b_tb 
+# Start time: 11:43:47 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# Loading work.minilab1b
+# Loading work.mem_wrapper
+# Loading work.rom
+# Loading altera_mf_ver.altsyncram
+# Loading work.mat_vec_mult
+# Loading work.FIFO
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.MAC
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'iDUT'.  Expected 13, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (9) for port 'SW'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv Line: 14
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'LEDR'.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv Line: 14
+# ** Warning: (vsim-3722) C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv(14): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv(14): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv(14): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'address'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/memory.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (64) for port 'b_fifo_in'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iMAC File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv Line: 91
+# Error loading design
+# End time: 11:43:48 on Feb 09,2026, Elapsed time: 0:00:01
+# Errors: 1, Warnings: 8
+vsim -L altera_mf_ver -L altera_mf work.minilab1b_tb
+# vsim -L altera_mf_ver -L altera_mf work.minilab1b_tb 
+# Start time: 11:45:05 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# Loading work.minilab1b
+# Loading work.mem_wrapper
+# Loading work.rom
+# Loading altera_mf_ver.altsyncram
+# Loading work.mat_vec_mult
+# Loading work.FIFO
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.MAC
+# ** Warning: (vsim-2685) [TFMPC] - Too few port connections for 'iDUT'.  Expected 13, found 10.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (9) for port 'SW'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv Line: 14
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'LEDR'.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv Line: 14
+# ** Warning: (vsim-3722) C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv(14): [TFMPC] - Missing connection for port 'CLOCK2_50'.
+# ** Warning: (vsim-3722) C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv(14): [TFMPC] - Missing connection for port 'CLOCK3_50'.
+# ** Warning: (vsim-3722) C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv(14): [TFMPC] - Missing connection for port 'CLOCK4_50'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'address'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/memory.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (64) for port 'b_fifo_in'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iMAC File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv Line: 91
+# Error loading design
+# End time: 11:45:05 on Feb 09,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 8
+# Compile of m2.sv failed with 5 errors.
+# Compile of minilab1b_tb.sv was successful.
+# 2 compiles, 1 failed with 5 errors.
+vsim -L altera_mf_ver -L altera_mf work.minilab1b_tb
+# vsim -L altera_mf_ver -L altera_mf work.minilab1b_tb 
+# Start time: 11:45:22 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# Loading work.minilab1b
+# Loading work.mem_wrapper
+# Loading work.rom
+# Loading altera_mf_ver.altsyncram
+# Loading work.mat_vec_mult
+# Loading work.FIFO
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.MAC
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (9) for port 'SW'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv(24).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv Line: 14
+# ** Error (suppressible): (vsim-3053) Illegal output or inout port connection for port 'LEDR'.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'address'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/memory.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (64) for port 'b_fifo_in'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iMAC File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv Line: 91
+# Error loading design
+# End time: 11:45:22 on Feb 09,2026, Elapsed time: 0:00:00
+# Errors: 1, Warnings: 5
+# Compile of m2.sv failed with 5 errors.
+# Compile of minilab1b_tb.sv was successful.
+# 2 compiles, 1 failed with 5 errors.
+vsim -L altera_mf_ver -L altera_mf work.minilab1b_tb
+# vsim -L altera_mf_ver -L altera_mf work.minilab1b_tb 
+# Start time: 11:47:20 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# Loading work.minilab1b
+# Loading work.mem_wrapper
+# Loading work.rom
+# Loading altera_mf_ver.altsyncram
+# Loading work.mat_vec_mult
+# Loading work.FIFO
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# Loading work.MAC
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'LEDR'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv(18).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'address'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/memory.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (64) for port 'b_fifo_in'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iMAC File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv Line: 91
+run -all
+add wave -position insertpoint sim:/minilab1b_tb/iDUT/*
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'LEDR'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv(18).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'address'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/memory.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (64) for port 'b_fifo_in'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iMAC File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv Line: 91
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -continue
+run -all
+# Compile of m2.sv failed with 5 errors.
+# Compile of minilab1b.sv was successful.
+# Compile of minilab1b_tb.sv was successful.
+# 3 compiles, 1 failed with 5 errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.minilab1b_tb
+# Loading work.minilab1b
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'LEDR'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv(18).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'address'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/memory.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (64) for port 'b_fifo_in'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iMAC File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv Line: 91
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -all
+run -all
+run -all
+# Compile of m2.sv failed with 5 errors.
+# Compile of minilab1b_tb.sv was successful.
+# 2 compiles, 1 failed with 5 errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.minilab1b_tb
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'LEDR'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv(18).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'address'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/memory.v Line: 25
+# ** Warning: (vsim-3015) [PCDPC] - Port size (8) does not match connection size (64) for port 'b_fifo_in'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/mat_vec_mult.sv(19).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iMAC File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv Line: 91
+run
+# GetModuleFileName: The specified module could not be found.
+# 
+# 
+run
+run
+run -all
+# Expression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[6] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[6] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[6] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[6] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[6] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[6] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[6] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[6] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedExpression input symbol /minilab1b_tb/iDUT/a_fifo_in[7] is not loggedCompile of m2.sv failed with 5 errors.
+# Compile of minilab1b.sv failed with 1 errors.
+# 2 compiles, 2 failed with 6 errors.
+# Compile of m2.sv failed with 5 errors.
+# Compile of minilab1b.sv was successful.
+# 2 compiles, 1 failed with 5 errors.
+restart
+# ** Note: (vsim-12125) Error and warning message counts have been reset to '0' because of 'restart'.
+# Loading work.minilab1b
+# ** Warning: (vsim-3015) [PCDPC] - Port size (10) does not match connection size (1) for port 'LEDR'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b.sv(18).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/minilab1b_tb.sv Line: 14
+# ** Warning: (vsim-3015) [PCDPC] - Port size (4) does not match connection size (5) for port 'address'. The port definition is at: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v(41).
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/memory.v Line: 25
+run -all
+# GetModuleFileName: The specified module could not be found.
+# 
+# 

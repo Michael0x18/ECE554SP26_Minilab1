@@ -36,8 +36,8 @@ localparam DONE     = 1'd1;
 wire rst_n;
 
 logic Clr;
-wire [DATA_WIDTH-1:0] a_fifo_in[DATA_WIDTH-1:0];
-wire [DATA_WIDTH-1:0] b_fifo_in;
+logic [DATA_WIDTH-1:0] a_fifo_in[DATA_WIDTH-1:0];
+logic [DATA_WIDTH-1:0] b_fifo_in;
 wire [DATA_WIDTH*3-1:0] out[DATA_WIDTH-1:0];
 wire [31:0] address;
 wire mem_rd_en;
@@ -95,7 +95,7 @@ mat_vec_mult #(.DEPTH(DEPTH), .DATA_WIDTH(DATA_WIDTH)) iMAC(
 	.a_wren(a_wren),
 	.b_wren(b_wren),
 	.a_fifo_in(a_fifo_in),
-	.b_fifo_in(data_line),
+	.b_fifo_in(b_fifo_in),
 	.out(out),
 	.done(done_wire)
 );
@@ -131,6 +131,7 @@ always @(*) begin
 			done <= 1'b0;
 			nxt_state <= READ_MEM;
 			if (readdatavalid && mem_rd_count == 4'd8) begin
+				b_fifo_in <= data_line;
 				b_wren <= 1'b1;
 				inc <= 1'b1;
 			end

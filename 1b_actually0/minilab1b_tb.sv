@@ -14,8 +14,11 @@ logic [23:0] expected [0:7];
 minilab1b iDUT(
   // inputs
   .CLOCK_50(clk),
+  .CLOCK2_50(clk),
+  .CLOCK3_50(clk),
+  .CLOCK4_50(clk),
   .KEY({3'b0, rst_n}),
-  .SW({5'b0, display_C0X, display_en}),
+  .SW({6'b0, display_C0X, display_en}),
 
   // outputs
   .HEX0(display_out[0]),
@@ -24,12 +27,12 @@ minilab1b iDUT(
   .HEX3(display_out[3]),
   .HEX4(display_out[4]),
   .HEX5(display_out[5]),
-  .LEDR({9'b0, done})
+  .LEDR(done)
 );
 
 initial begin
   clk = 1'b0;
-  rst_n = 1'b1;
+  rst_n = 1'b0;
   display_en = 1'b0;
   display_C0X = 3'b0;
 
