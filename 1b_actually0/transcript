@@ -137,3 +137,1220 @@ vsim work.minilab1b_tb
 # Error loading design
 # End time: 11:14:55 on Feb 09,2026, Elapsed time: 0:00:00
 # Errors: 1, Warnings: 2
+# Compile of m2.sv failed with 5 errors.
+# Compile of altera_mf.vhd failed with 3 errors.
+# Compile of altera_mf_components.vhd was successful.
+# 3 compiles, 2 failed with 8 errors.
+vsim work.minilab1b_tb
+# vsim work.minilab1b_tb 
+# Start time: 11:24:22 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# Loading work.minilab1b
+# Loading work.mem_wrapper
+# Loading work.rom
+# Loading work.mat_vec_mult
+# Loading work.FIFO
+# Loading work.MAC
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.address_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 84
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_input_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 85
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_output_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 86
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.init_file.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 87
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 88
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 89
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 90
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.numwords_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 91
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 92
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 93
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_reg_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 94
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.widthad_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 95
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 96
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_byteena_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 97
+# Error loading design
+# End time: 11:24:23 on Feb 09,2026, Elapsed time: 0:00:01
+# Errors: 14, Warnings: 3
+# Compile of m2.sv failed with 5 errors.
+# Compile of altera_mf.vhd was successful.
+# 2 compiles, 1 failed with 5 errors.
+# Compile of m2.sv failed with 5 errors.
+vsim work.minilab1b_tb
+# vsim work.minilab1b_tb 
+# Start time: 11:25:02 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# Loading work.minilab1b
+# Loading work.mem_wrapper
+# Loading work.rom
+# Loading work.mat_vec_mult
+# Loading work.FIFO
+# Loading work.MAC
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.address_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 84
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_input_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 85
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_output_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 86
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.init_file.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 87
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 88
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 89
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 90
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.numwords_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 91
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 92
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 93
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_reg_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 94
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.widthad_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 95
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 96
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_byteena_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 97
+# Error loading design
+# End time: 11:25:03 on Feb 09,2026, Elapsed time: 0:00:01
+# Errors: 14, Warnings: 3
+vsim work.minilab1b_tb -L
+# vsim work.minilab1b_tb -L  
+# Start time: 11:30:39 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# Loading work.minilab1b
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# Loading work.mem_wrapper
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# Loading work.rom
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# Loading work.mat_vec_mult
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# Loading work.FIFO
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# Loading work.MAC
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library '' at "".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.address_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 84
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_input_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 85
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_output_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 86
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.init_file.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 87
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 88
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 89
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 90
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.numwords_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 91
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 92
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 93
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_reg_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 94
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.widthad_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 95
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 96
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_byteena_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 97
+# Error loading design
+C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf -voptargs="+acc"
+# End time: 11:30:39 on Feb 09,2026, Elapsed time: 0:00:00
+# Errors: 36, Warnings: 1
+# invalid command name "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf"
+vsim work.minilab1b_tb -L C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf -voptargs="+acc"
+# vsim work.minilab1b_tb -L C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf -voptargs=""+acc"" 
+# Start time: 11:31:03 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.minilab1b
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mem_wrapper
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.rom
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mat_vec_mult
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.FIFO
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MAC
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/questa_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.address_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 84
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_input_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 85
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_output_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 86
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.init_file.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 87
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 88
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 89
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 90
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.numwords_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 91
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 92
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 93
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_reg_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 94
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.widthad_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 95
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 96
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_byteena_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 97
+# Error loading design
+# End time: 11:31:04 on Feb 09,2026, Elapsed time: 0:00:01
+# Errors: 36, Warnings: 1
+vsim work.minilab1b_tb -L C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf -voptargs="+acc"
+# vsim work.minilab1b_tb -L C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf -voptargs=""+acc"" 
+# Start time: 11:31:46 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.minilab1b
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mem_wrapper
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.rom
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mat_vec_mult
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.FIFO
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MAC
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf' at "C:/intelFPGA_lite/21.1/modelsim_fse/intel/verilog/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.address_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 84
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_input_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 85
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_output_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 86
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.init_file.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 87
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 88
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 89
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 90
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.numwords_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 91
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 92
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 93
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_reg_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 94
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.widthad_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 95
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 96
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_byteena_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 97
+# Error loading design
+# End time: 11:31:46 on Feb 09,2026, Elapsed time: 0:00:00
+# Errors: 36, Warnings: 1
+vsim work.minilab1b_tb -L C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf -voptargs="+acc"
+# vsim work.minilab1b_tb -L C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf -voptargs=""+acc"" 
+# Start time: 11:32:25 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.minilab1b
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mem_wrapper
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.rom
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mat_vec_mult
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.FIFO
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MAC
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.address_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 84
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_input_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 85
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_output_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 86
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.init_file.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 87
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 88
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 89
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 90
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.numwords_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 91
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 92
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 93
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_reg_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 94
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.widthad_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 95
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 96
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_byteena_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 97
+# Error loading design
+# End time: 11:32:26 on Feb 09,2026, Elapsed time: 0:00:01
+# Errors: 36, Warnings: 1
+vsim work.minilab1b_tb -L "C:\intelFPGA_lite\20.1\modelsim_fse\altera\vhdl\altera_mf" -voptargs="+acc"
+# vsim work.minilab1b_tb -L C:intelFPGA_lite.1modelsim_fselterahdlltera_mf -voptargs=""+acc"" 
+# Start time: 11:33:46 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# Loading work.minilab1b
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# Loading work.mem_wrapper
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# Loading work.rom
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# Loading work.mat_vec_mult
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# Loading work.FIFO
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# Loading work.MAC
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:intelFPGA_lite.1modelsim_fselterahdlltera_mf' at "C:intelFPGA_lite.1modelsim_fselterahdlltera_mf".
+# Invalid argument. (errno = EINVAL)
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.address_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 84
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_input_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 85
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_output_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 86
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.init_file.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 87
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 88
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 89
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 90
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.numwords_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 91
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 92
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 93
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_reg_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 94
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.widthad_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 95
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 96
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_byteena_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 97
+# Error loading design
+# End time: 11:33:46 on Feb 09,2026, Elapsed time: 0:00:00
+# Errors: 36, Warnings: 1
+vsim work.minilab1b_tb -L C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf -voptargs="+acc"
+# vsim work.minilab1b_tb -L C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf -voptargs=""+acc"" 
+# Start time: 11:34:08 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.minilab1b
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mem_wrapper
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.rom
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mat_vec_mult
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.FIFO
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MAC
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.address_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 84
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_input_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 85
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_output_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 86
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.init_file.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 87
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 88
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 89
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 90
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.numwords_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 91
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 92
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 93
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_reg_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 94
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.widthad_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 95
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 96
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_byteena_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 97
+# Error loading design
+# End time: 11:34:08 on Feb 09,2026, Elapsed time: 0:00:00
+# Errors: 36, Warnings: 1
+vsim minilab1b_tb -L C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf -voptargs="+acc"
+# vsim minilab1b_tb -L C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf -voptargs=""+acc"" 
+# Start time: 11:34:39 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.minilab1b
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mem_wrapper
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.rom
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mat_vec_mult
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.FIFO
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MAC
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA_lite/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.address_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 84
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_input_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 85
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_output_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 86
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.init_file.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 87
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 88
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 89
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 90
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.numwords_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 91
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 92
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 93
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_reg_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 94
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.widthad_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 95
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 96
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_byteena_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 97
+# Error loading design
+# End time: 11:34:40 on Feb 09,2026, Elapsed time: 0:00:01
+# Errors: 36, Warnings: 1
+ls
+# c5_pin_model_dump.txt  minilab1b.qsf                        
+# db                     minilab1b.qws                        
+# dump2.vcd              minilab1b.sdc                        
+# fifo.sv                minilab1b.sv                         
+# incremental_db         minilab1b.v.bak                      
+# input_mem.mif          minilab1b_nativelink_simulation.rpt  
+# m2.sv                  minilab1b_tb.sv                      
+# mac.sv                 output_files                         
+# mat_vec_mult.sv        rom.qip                              
+# mat_vec_mult_tb.sv     rom.v                                
+# memory.v               simulation                           
+# minilab1b.cr.mti       transcript                           
+# minilab1b.mpf          vsim.wlf                             
+# minilab1b.qpf          work                                 
+ls ..
+# 
+# ..:
+# .git  1a_actually0  1b_actually0        
+pwd
+# C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0
+ls
+# c5_pin_model_dump.txt  minilab1b.qsf                        
+# db                     minilab1b.qws                        
+# dump2.vcd              minilab1b.sdc                        
+# fifo.sv                minilab1b.sv                         
+# incremental_db         minilab1b.v.bak                      
+# input_mem.mif          minilab1b_nativelink_simulation.rpt  
+# m2.sv                  minilab1b_tb.sv                      
+# mac.sv                 output_files                         
+# mat_vec_mult.sv        rom.qip                              
+# mat_vec_mult_tb.sv     rom.v                                
+# memory.v               simulation                           
+# minilab1b.cr.mti       transcript                           
+# minilab1b.mpf          vsim.wlf                             
+# minilab1b.qpf          work                                 
+vsim minilab1b_tb -L C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf -voptargs="+acc"
+# vsim minilab1b_tb -L C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf -voptargs=""+acc"" 
+# Start time: 11:35:58 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.minilab1b
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mem_wrapper
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.rom
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mat_vec_mult
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.FIFO
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MAC
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_fse/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.address_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 84
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_input_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 85
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_output_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 86
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.init_file.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 87
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 88
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 89
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 90
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.numwords_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 91
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 92
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 93
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_reg_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 94
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.widthad_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 95
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 96
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_byteena_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 97
+# Error loading design
+# End time: 11:35:58 on Feb 09,2026, Elapsed time: 0:00:00
+# Errors: 36, Warnings: 1
+vsim minilab1b_tb -L C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf -voptargs="+acc"
+# vsim minilab1b_tb -L C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf -voptargs=""+acc"" 
+# Start time: 11:36:26 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.minilab1b
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mem_wrapper
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.rom
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mat_vec_mult
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.FIFO
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MAC
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.address_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 84
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_input_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 85
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_output_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 86
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.init_file.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 87
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 88
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 89
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 90
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.numwords_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 91
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 92
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 93
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_reg_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 94
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.widthad_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 95
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 96
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_byteena_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 97
+# Error loading design
+# End time: 11:36:26 on Feb 09,2026, Elapsed time: 0:00:00
+# Errors: 36, Warnings: 1
+vsim minilab1b_tb -L C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd -voptargs="+acc"
+# vsim minilab1b_tb -L C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd -voptargs=""+acc"" 
+# Start time: 11:37:02 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# Loading work.minilab1b
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mem_wrapper
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# Loading work.rom
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mat_vec_mult
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# Loading work.FIFO
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MAC
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf.vhd".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.address_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 84
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_input_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 85
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_output_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 86
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.init_file.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 87
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 88
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 89
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 90
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.numwords_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 91
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 92
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 93
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_reg_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 94
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.widthad_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 95
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 96
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_byteena_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 97
+# Error loading design
+# End time: 11:37:02 on Feb 09,2026, Elapsed time: 0:00:00
+# Errors: 36, Warnings: 1
+vsim minilab1b_tb -L C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/ -voptargs="+acc"
+# vsim minilab1b_tb -L C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/ -voptargs=""+acc"" 
+# Start time: 11:37:12 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# Loading work.minilab1b
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mem_wrapper
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# Loading work.rom
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mat_vec_mult
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# Loading work.FIFO
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MAC
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.address_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 84
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_input_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 85
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_output_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 86
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.init_file.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 87
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 88
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 89
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 90
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.numwords_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 91
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 92
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 93
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_reg_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 94
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.widthad_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 95
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 96
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_byteena_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 97
+# Error loading design
+# End time: 11:37:12 on Feb 09,2026, Elapsed time: 0:00:00
+# Errors: 36, Warnings: 1
+vsim minilab1b_tb -L C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram -voptargs="+acc"
+# vsim minilab1b_tb -L C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram -voptargs=""+acc"" 
+# Start time: 11:37:34 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# Loading work.minilab1b
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mem_wrapper
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# Loading work.rom
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# Loading work.mat_vec_mult
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# Loading work.FIFO
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# Loading work.MAC
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-19) Failed to access library 'C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram' at "C:/intelFPGA/20.1/modelsim_ase/altera/vhdl/src/altera_mf/altsyncram".
+# No such file or directory. (errno = ENOENT)
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.address_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 84
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_input_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 85
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_output_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 86
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.init_file.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 87
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 88
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 89
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 90
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.numwords_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 91
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 92
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 93
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_reg_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 94
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.widthad_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 95
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 96
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_byteena_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 97
+# Error loading design
+# End time: 11:37:34 on Feb 09,2026, Elapsed time: 0:00:00
+# Errors: 36, Warnings: 1
+vsim work.altsyncram
+# vsim work.altsyncram 
+# Start time: 11:37:51 on Feb 09,2026
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.std_logic_arith(body)
+# Loading ieee.std_logic_unsigned(body)
+# Loading work.altera_common_conversion(body)
+# Loading work.altera_device_families(body)
+# Loading work.altsyncram(translated)
+vsim work.minilab1b_tb
+# End time: 11:38:19 on Feb 09,2026, Elapsed time: 0:00:28
+# Errors: 0, Warnings: 1
+# vsim work.minilab1b_tb 
+# Start time: 11:38:19 on Feb 09,2026
+# Loading sv_std.std
+# Loading work.minilab1b_tb
+# Loading work.minilab1b
+# Loading work.mem_wrapper
+# Loading work.rom
+# Loading work.mat_vec_mult
+# Loading work.FIFO
+# Loading work.MAC
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.address_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 84
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_input_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 85
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.clock_enable_output_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 86
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.init_file.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 87
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.intended_device_family.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 88
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_hint.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 89
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.lpm_type.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 90
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.numwords_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 91
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.operation_mode.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 92
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_aclr_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 93
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.outdata_reg_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 94
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.widthad_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 95
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 96
+# ** Error (suppressible): (vsim-10000) Unresolved defparam reference to 'altsyncram_component' in altsyncram_component.width_byteena_a.
+#    Time: 0 ps  Iteration: 0  Instance: /minilab1b_tb/iDUT/iRemember/memory File: C:/Users/jnoro/AppData/Local/quartus/ECE554SP26_Minilab1/1b_actually0/rom.v Line: 97
+# Error loading design
+# End time: 11:38:20 on Feb 09,2026, Elapsed time: 0:00:01
+# Errors: 14, Warnings: 1
