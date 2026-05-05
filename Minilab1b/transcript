@@ -1,0 +1,30 @@
+# vsim -c work.mat_vec_mult_tb -do "run -all;quit" 
+# Start time: 11:15:47 on Feb 10,2026
+# Loading sv_std.std
+# Loading work.mat_vec_mult_tb
+# Loading work.mat_vec_mult_t
+# Loading work.FIFO
+# Loading work.MAC
+# run -all
+# EXPECTED
+#      168
+#      168
+#      168
+#      168
+#      168
+#      168
+#      168
+#      168
+# ACTUAl
+#      168
+#      168
+#      168
+#      168
+#      168
+#      168
+#      168
+#      168
+# ** Note: $finish    : mat_vec_mult_tb.sv(163)
+#    Time: 2765 ps  Iteration: 0  Instance: /mat_vec_mult_tb
+# End time: 11:15:47 on Feb 10,2026, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
